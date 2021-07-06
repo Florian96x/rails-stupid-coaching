@@ -1,0 +1,13 @@
+<h1>Stupid Coach</h1>
+
+<div id="question">
+  <h2><%= params[:question]%></h2>
+  <h3>–You</h3>
+</div>
+
+<div id="answer">
+  <h2><%= @anser%></h2>
+  <h3>–Coach</h3>
+</div>
+
+<%= link_to "Aks a new question", ask_path, class: "link" %>
